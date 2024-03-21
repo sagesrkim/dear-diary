@@ -1,5 +1,7 @@
-import Image from "next/image";
-
 export default function Home() {
-  return <main>테스트입니다</main>;
+  return (
+    <main className="bg-baby-blue">
+      <div className="h-full">달력 생성 컴포넌트</div>
+    </main>
+  );
 }
